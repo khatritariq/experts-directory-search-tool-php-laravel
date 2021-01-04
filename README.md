@@ -1,10 +1,15 @@
 
 
 APIs:
+
  a. POST /member       Create member (name, website_url)
+ 
  b. POST /friendship/  Create friendship (member_id, friend_id)
+ 
  c. GET  /members      List all members  (id, name, website_short_url, num_of_friends)
+ 
  d. GET /member/{id}   List member (id, name, website_url, website_short_url, website_headings, link_to_friends_pages)
+ 
  e. GET /member/{id}/experts_for/{topic} - A's profile where C is expert in {topic} and A is not friend of C
 
 
