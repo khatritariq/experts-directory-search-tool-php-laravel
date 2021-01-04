@@ -1,3 +1,13 @@
+Setup:
+
+1. Clone repository
+2. Run composer update & composer du -o
+3. Run php artisan serve
+
+Prerequisite:
+
+1. PHP7+
+2. Composer
 
 
 APIs:
